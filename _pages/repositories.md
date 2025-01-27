@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Informações sobre os repositórios dos projetos nos quais atuei.
+description: Informações sobre os repositórios dos projetos nos quais atuei ou atuo.
 nav: true
 nav_order: 4
 ---

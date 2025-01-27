@@ -3,8 +3,8 @@ layout: post
 title: Como contribuir para projetos open source sendo iniciante
 date: 2020-07-16 16:59:00-0300
 description: Como contribuir para projetos open source se sou iniciante? O projeto Maria Quitéria e meu primeiro pull request!
-tags: formatting code
-categories: sample-posts
+tags: open source
+categories: passo-a-passo
 ---
 
 Quando se é iniciante, tudo parece muita coisa. E, se você é assim como eu, você tem uma necessidade lá no fundo que precisa sanar antes de colocar em prática qualquer coisa: estudar TUDO que tem sobre o assunto. Mas se tem uma coisa que aprendi nesse mais de um ano estudando programação e me dedicando a aprender ciência de dados é que ir fazendo é necessário no processo de compreensão e de aprendizagem, assim como tudo que aprendemos. Então como iniciar?
