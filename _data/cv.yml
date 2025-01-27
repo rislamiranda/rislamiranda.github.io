@@ -1,97 +1,113 @@
-- title: General Information
+- title: Dados básicos
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Nome
+      value: Risla Miranda
+    - name: Cidade
+      value: Brasília-DF
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Português, Inglês, Francês
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Cientista de Dados
+      institution: Ministério da Gestão e da Inovação em Serviços Públicos, Brasília
+      year: Out 2024 - Presente
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Análise de dados de demandas administrativas e estratégicas do gabinete da Secretaria de Gestão e Inovação (Seges).
+        - riação de aplicações web para monitoramento de assuntos de interesse do gabinete da Seges.
+        - Atuação em projetos de ciências de dados para apoio na implementação, monitoramento e avaliação de políticas públicas
+        
+    - title: Técnica de Nível Superior
+      institution: Conselho Administrativo de Defesa Econômica, Brasília
+      year: Maio 2023 - Out 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Análise de dados referentes a mercados regulados brasileiros.
+        - Análise e instrução de processos de concentração de mercado regulado.
+        - Análise e instrução de possíveis infrações à ordem econômica em mercado regulado.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Técnica de Nível Superior
+      institution: Ministério da Cultura, Brasília 
+      year: Fev 2023 - Abril 2023
       description:
+        - Análise de projetos culturais.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Técnica de Nível Superior
+      institution: Ministério do Turismo, Brasília
+      year: Jun 2020 - Jan 2023
+      description:
+        - Análise de projetos culturais.
+        
+    - title: Técnica de Nível Superior
+      institution: Ministério da Cidadania, Brasília
+      year: Ago 2019 - Jun 2020
+      description:
+        - Análise de projetos culturais.
+        - Responsável pelo acompanhamento técnico e validação das planilhas utilizadas para acompanhamento de processos e metas.
+        
+    - title: Coordenadora de Articulação de Políticas de Cultura e Educação
+      institution: Secretaria da Cidadania e da Diversidade Cultural, MinC, Brasília
+      year: Set 2016 - Ago 2017
+      description:
+        - Criação de metodologias de pesquisa, execução e avaliação de projetos.
+        - Coordenar e executar a análise e o acompanhamento de instrumentos de transferência voluntária na área de cultura e educação.
+        - Articulação entre órgãos e entidades ligadas à cultura, arte e educação, assim como a elaboração de projetos e de prospecções no campo da cultura e educação.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Técnica de Nível Superior
+      institution: Secretaria do Audiovisual - MinC, Brasília
+      year: Jul 2013 - Ago 2016
+      description:
+        - Análise de projetos culturais no âmbito da Lei Rouanet.
+        - Acompanhamento de editais de fomento direto.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Analista de Desenvolvimento Industrial
+      institution: Serviço Nacional de Aprendizagem, SENAI, Brasília
+      year: Fev 2013 - Jul 2013
+      description:
+        - Coordenação nacional do projeto para ensino de inglês para alunos do ensino médio do SESI.
+        - Articulação, desenvolvimento, acompanhamento e avaliação das etapas do projeto, junto à US Brazil Connect.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Education
+#  type: time_table
+#  contents:
+#    - title: PhD
+#      institution: ff
+#      year: 1905
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+#    - title: Federal teaching diploma
+#      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+#      year: 1900
+#      description:
+#        - Description 1.
+#        - Description 2.
+#
+#- title: Cursos Livres
+#  type: time_table
+#  contents:
+#    - year: 1921
+#      items:
+#        - Nobel Prize in Physics
+#        - Matteucci Medal
+#    - year: 2029
+#      items:
+#        - Max Planck Medal
+#
+#- title: Tecnologias
+#  type: nested_list
+#  contents:
+#    - title: Topic 1.
+#      items:
+#        - Description 1.
+#        - Description 2.
+#    - title: Topic 2.
+#      items:
+#        - Description 1.
+#        - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
