@@ -132,13 +132,6 @@ ninja.data = [{
           window.open("https://github.com/rislamiranda", "_blank");
         },
       },{
-        id: 'social-lattes',
-        title: 'Lattes',
-        section: 'Socials',
-        handler: () => {
-          window.open("http://lattes.cnpq.br/3742159858884024", "_blank");
-        },
-      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
