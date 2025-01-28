@@ -8,12 +8,12 @@
     - name: Languages
       value: Português, Inglês, Francês
 
-- title: Experience
+- title: Principais experiências
   type: time_table
   contents:
     - title: Cientista de Dados
       institution: Ministério da Gestão e da Inovação em Serviços Públicos, Brasília
-      year: Out 2024 - Presente
+      year: 2024 - Presente
       description:
         - Análise de dados de demandas administrativas e estratégicas do gabinete da Secretaria de Gestão e Inovação (Seges).
         - riação de aplicações web para monitoramento de assuntos de interesse do gabinete da Seges.
@@ -21,34 +21,22 @@
         
     - title: Técnica de Nível Superior
       institution: Conselho Administrativo de Defesa Econômica, Brasília
-      year: Maio 2023 - Out 2024
+      year: 2023 - 2024
       description:
         - Análise de dados referentes a mercados regulados brasileiros.
         - Análise e instrução de processos de concentração de mercado regulado.
         - Análise e instrução de possíveis infrações à ordem econômica em mercado regulado.
-
-    - title: Técnica de Nível Superior
-      institution: Ministério da Cultura, Brasília 
-      year: Fev 2023 - Abril 2023
-      description:
-        - Análise de projetos culturais.
-
-    - title: Técnica de Nível Superior
-      institution: Ministério do Turismo, Brasília
-      year: Jun 2020 - Jan 2023
-      description:
-        - Análise de projetos culturais.
         
     - title: Técnica de Nível Superior
       institution: Ministério da Cidadania, Brasília
-      year: Ago 2019 - Jun 2020
+      year: 2019 - 2020
       description:
         - Análise de projetos culturais.
         - Responsável pelo acompanhamento técnico e validação das planilhas utilizadas para acompanhamento de processos e metas.
         
     - title: Coordenadora de Articulação de Políticas de Cultura e Educação
       institution: Secretaria da Cidadania e da Diversidade Cultural, MinC, Brasília
-      year: Set 2016 - Ago 2017
+      year: 2016 - 2017
       description:
         - Criação de metodologias de pesquisa, execução e avaliação de projetos.
         - Coordenar e executar a análise e o acompanhamento de instrumentos de transferência voluntária na área de cultura e educação.
@@ -56,58 +44,57 @@
 
     - title: Técnica de Nível Superior
       institution: Secretaria do Audiovisual - MinC, Brasília
-      year: Jul 2013 - Ago 2016
+      year: 2013 - 2016
       description:
         - Análise de projetos culturais no âmbito da Lei Rouanet.
         - Acompanhamento de editais de fomento direto.
 
-    - title: Analista de Desenvolvimento Industrial
-      institution: Serviço Nacional de Aprendizagem, SENAI, Brasília
-      year: Fev 2013 - Jul 2013
-      description:
-        - Coordenação nacional do projeto para ensino de inglês para alunos do ensino médio do SESI.
-        - Articulação, desenvolvimento, acompanhamento e avaliação das etapas do projeto, junto à US Brazil Connect.
+- title: Formação
+  ype: time_table
+  contents:
+    - title: Bacharel em Ciências Econômicas
+      institution: Universidade Católica de Brasília, Brasília
+      year: 2024
+            
+    - title: Mestra em Direitos Humanos e Cidadania
+      institution: Universidade de Brasília, Brasília
+      year: 2019
 
-#- title: Education
-#  type: time_table
-#  contents:
-#    - title: PhD
-#      institution: ff
-#      year: 1905
-#      description:
-#        - Description 1.
-#        - Description 2.
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
-#    - title: Federal teaching diploma
-#      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-#      year: 1900
-#      description:
-#        - Description 1.
-#        - Description 2.
-#
-#- title: Cursos Livres
-#  type: time_table
-#  contents:
-#    - year: 1921
-#      items:
-#        - Nobel Prize in Physics
-#        - Matteucci Medal
-#    - year: 2029
-#      items:
-#        - Max Planck Medal
-#
-#- title: Tecnologias
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items:
-#        - Description 1.
-#        - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
+    - title: Especialista em Acessibilidade em Ambientes Culturais
+      institution: Universidade Federal do Rio de Janeiro, Rio de Janeiro
+      year: 2016
+      
+    - title: Especialista em História, Sociedade e Cidadania
+      institution: Centro Universitário de Brasília, Brasília
+      year: 2015
+      
+    - title: Licenciada em Pedagogia
+      institution: Universidade de Brasília, Brasília
+      year: 2012
 
+- title: Principais Cursos
+  type: time_table
+  contents:
+    - title: Bootcamp em Machine Learning
+      institution: ENAP
+      year: 2024
+
+    - title: Bootcamp em Análise de Dados
+      institution: ENAP
+      year: 2023
+      
+    - title: Data Analyst with Python Track
+      institution: DataCamp
+      year: 2021
+
+    - title: Gender Analytics for Innovation
+      institution: University of Toronto
+      year: 2020
+
+    - title: Inclusive Analytic Techniques
+      institution: University of Toronto
+      year: 2020
+      
+    - title: Javascript Algorithms And Data Structures Certification
+      institution: freeCodeCamp
+      year: 2019

@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Meus projetos, seja em andamento ou concluídos.
+description: Meus projetos, seja em andamento ou concluídos. 
 nav: true
 nav_order: 3
-display_categories: [trabalho, pessoal, estudos]
+display_categories: [trabalho, estudos]
 horizontal: false
 ---
 
