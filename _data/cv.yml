@@ -50,7 +50,7 @@
         - Acompanhamento de editais de fomento direto.
 
 - title: Formação
-  ype: time_table
+  type: time_table
   contents:
     - title: Bacharel em Ciências Econômicas
       institution: Universidade Católica de Brasília, Brasília

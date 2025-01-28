@@ -5,5 +5,4 @@ description: Aplicação web paraconsultar proposições legislativas de temas e
 img: 
 importance: 2
 category: trabalho
-giscus_comments: true
 ---

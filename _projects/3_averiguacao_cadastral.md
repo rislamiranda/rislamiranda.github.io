@@ -5,6 +5,5 @@ description: Criação de um algoritmo usando técnicas de Machine Learning para
 img: 
 importance: 3
 category: estudos
-giscus_comments: true
 ---
 

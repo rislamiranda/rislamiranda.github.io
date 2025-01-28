@@ -5,6 +5,5 @@ description: Projeto de análise de dados do Serviço de Acolhimento em Família
 img: 
 importance: 1
 category: trabalho
-giscus_comments: true
 ---
 

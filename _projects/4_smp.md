@@ -5,7 +5,6 @@ description: Projeto colaborativo realizado no âmbito do Bootcamp de Análise d
 img: assets/img/smartphone.png
 importance: 4
 category: estudos
-giscus_comments: true
 ---
 
 O projeto "Mercado regulado de telefonia móvel" foi realizado de forma colaborativa durante Bootcamp de Análise de Dados ofertado pela Escola Nacional de Administração Pública - ENAP em 2023. Além de mim, a equipe foi formada pelas servidoras públicas Beatriz Pierri, Fernanda Castro, Graciele Rodrigues, Jane Adriana e Lilian Nakayama (que equipe, hein! Obrigada!). 
