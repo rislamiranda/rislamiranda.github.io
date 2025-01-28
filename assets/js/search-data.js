@@ -65,51 +65,26 @@ ninja.data = [{
     },{id: "news-novo-site-novas-funcionalidades",
           title: 'Novo site, novas funcionalidades :)',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-análise-de-dados-do-serviço-de-acolhimento-em-família-acolhedora-sfa",
+          title: 'Análise de dados do Serviço de Acolhimento em Família Acolhedora (SFA)',
+          description: "Projeto de análise de dados do Serviço de Acolhimento em Família Acolhedora (SFA) com dados de 2023.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_fam_acolhedora/";
+            },},{id: "projects-aplicação-web-para-monitoramento-legislativo",
+          title: 'Aplicação web para monitoramento legislativo',
+          description: "Aplicação web paraconsultar proposições legislativas de temas específicos que tiveram tramitação nos últimos 60 dias na Câmara dos Deputados e nos últimos 30 dias na Câmara dos Deputados Senado Federal.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_monit_aspar_seges/";
+            },},{id: "projects-algoritmo-de-classificação-para-identificação-do-público-para-averiguação-cadastral",
+          title: 'Algoritmo de classificação para identificação do público para averiguação Cadastral',
+          description: "Criação de um algoritmo usando técnicas de Machine Learning para identificação automática do público de averiguação cadastral do Cadastro Único para Programas Sociais",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_averiguacao_cadastral/";
+            },},{id: "projects-análise-de-concentração-do-mercado-brasileiro-de-telefonia-móvel",
+          title: 'Análise de concentração do mercado brasileiro de telefonia móvel',
+          description: "Projeto colaborativo realizado no âmbito do Bootcamp de Análise de Dados da ENAP",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/4_smp/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',
