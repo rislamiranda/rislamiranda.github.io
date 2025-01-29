@@ -1,80 +1,35 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Análise de concentração do mercado brasileiro de telefonia móvel
+description: Projeto colaborativo realizado no âmbito do Bootcamp de Análise de Dados da ENAP
+img: assets/img/smartphone.png
+importance: 4
+category: estudos
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+O projeto "Mercado regulado de telefonia móvel" foi realizado de forma colaborativa durante Bootcamp de Análise de Dados ofertado pela Escola Nacional de Administração Pública - ENAP em 2023. Além de mim, a equipe foi formada pelas servidoras públicas Beatriz Pierri, Fernanda Castro, Graciele Rodrigues, Jane Adriana e Lilian Nakayama (que equipe, hein! Obrigada!). 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Os objetivos do projeto foram:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+1. Analisar, no período de 2009 a 2023, a concentração de mercado de telefonia móvel por UF e por DDD a partir da parcela de mercado por grupo econômico e do indicador de HHI (Índice Herfindahl-Hirschman);
+2. Analisar, no período de 2009 a 2023, a evolução de tecnologia de geração no Brasil.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Os dados utilizados no projeto são os dados brutos disponibilizados pela Anatel através do [painel de acessos de telefonia móvel](https://informacoes.anatel.gov.br/paineis/acessos/telefonia-movel). Os dados brutos contêm dados de 2005 a 2023. Como o período de 2005 a 2008 não possui os dados agregados por UF, escolhemos não utilizar nas análises os anos de 2005 a 2008.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+### Destaque das análise realizadas
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+#### Concentração de mercado
+- Concentração alta de mercado e não houve mudança significativa ao longo dos anos.
+- Os mesmos quatro grupos econômicos - até a compra da Oi que foi finalizada no primeiro semestre de 2022: Telefônica (VIVO), Telecom Italia (TIM), TELECOM AMERICAS (CLARO) e OI.
+- Com a finalização do acesso da Oi no primeiro semestre de 2022, já podemos perceber um aumento nos índices de HHI em todos os estados, inclusive apresentando um aumento de mais de 1000 em seis estados - ES, MA, MG, RO, SE e TO.
+- Temos apenas dois estados que apresentaram o mercado moderadamente concentrado: MG em 2015 e em 2016; e RJ de 2018 a 2020.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+#### Tecnologias
+- Tendo o ano de 2023 como base, temos que a maior parte de acessos de 5G é feita a partir de cobrança do tipo pós-pago, já a 4G, a tecnologia de geração mais utilizada atualmente, temos uma divisão equilibrada entre pós e pré-pago.
+- A maior parte dos acessos de 5G concentra-se na região sudeste.
 
-{% raw %}
+O relatório final do projeto você encontra [aqui](https://github.com/rislamiranda/projeto-smp/blob/main/documentacao/RELATO%CC%81RIOFINALPROJETOSMP.pdf) e os scrips utilizados para limpeza e análise dos dados estão [neste repositório do GitHub](https://github.com/rislamiranda/projeto-smp).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+---
 
-{% endraw %}
+<small> O ícone utilizado na capa deste projeto foi criado por [Freepik - Flaticon](https://www.flaticon.com/free-icons/app). </small>
