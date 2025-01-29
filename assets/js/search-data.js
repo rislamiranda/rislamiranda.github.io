@@ -63,7 +63,7 @@ ninja.data = [{
         
       },
     },{id: "news-novo-site-novas-funcionalidades",
-          title: 'Novo site, novas funcionalidades :)',
+          title: 'Novo site, novas funcionalidades! 😊',
           description: "",
           section: "News",},{id: "projects-análise-de-dados-do-serviço-de-acolhimento-em-família-acolhedora-sfa",
           title: 'Análise de dados do Serviço de Acolhimento em Família Acolhedora (SFA)',
@@ -72,7 +72,7 @@ ninja.data = [{
               window.location.href = "/projects/1_fam_acolhedora/";
             },},{id: "projects-aplicação-web-para-monitoramento-legislativo",
           title: 'Aplicação web para monitoramento legislativo',
-          description: "Aplicação web paraconsultar proposições legislativas de temas específicos que tiveram tramitação nos últimos 60 dias na Câmara dos Deputados e nos últimos 30 dias na Câmara dos Deputados Senado Federal.",
+          description: "Aplicação web para consultar proposições legislativas de temas específicos que tiveram tramitação nos últimos 60 dias na Câmara dos Deputados e nos últimos 30 dias na Câmara dos Deputados Senado Federal.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_monit_aspar_seges/";
             },},{id: "projects-algoritmo-de-classificação-para-identificação-do-público-para-averiguação-cadastral",
